@@ -37,13 +37,6 @@ class FoodApp extends StatelessWidget {
             ),
           ),
         ),
-        // cardTheme: CardTheme(
-        //   elevation: 2.0,
-        //   shape: RoundedRectangleBorder(
-        //     borderRadius: BorderRadius.circular(12.0),
-        //   ),
-        //   margin: const EdgeInsets.symmetric(vertical: 8.0, horizontal: 16.0),
-        // ),
       ),
       home: const LoginPage(),
       debugShowCheckedModeBanner: false,

@@ -5,6 +5,7 @@ class FoodMenu {
   String description;
   int totalLike;
   List<String> categories;
+  String recipeUrl;
 
   FoodMenu({
     required this.name,
@@ -13,6 +14,7 @@ class FoodMenu {
     required this.description,
     required this.categories,
     required this.totalLike,
+    required this.recipeUrl,
   });
 }
 
@@ -21,60 +23,60 @@ var foodMenuList = [
   FoodMenu(
     name: 'Nasi Goreng Spesial',
     price: 25000,
-    imageUrl:
-        'https://images.pexels.com/photos/19834047/pexels-photo-19834047.jpeg',
+    imageUrl: 'assets/nasi_goreng.png',
     description:
         "Nasi goreng khas Indonesia dengan tambahan ayam dan telur, disajikan dengan bumbu spesial.",
     categories: ['Nasi', 'Telur', 'Ayam', 'Kecap'],
     totalLike: 125000,
+    recipeUrl: "https://cookpad.com/id/resep/12345-nasi-goreng-spesial",
   ),
   FoodMenu(
     name: 'Sate Ayam',
     price: 30000,
-    imageUrl:
-        'https://images.pexels.com/photos/23147806/pexels-photo-23147806.jpeg',
+    imageUrl: 'assets/sate_ayam.png',
     description: "Sate ayam empuk dengan bumbu kacang gurih dan kecap manis.",
     categories: ['Ayam', 'Kecap', 'Sate'],
     totalLike: 230000,
+    recipeUrl: "https://cookpad.com/id/resep/67890-sate-ayam",
   ),
   FoodMenu(
     name: 'Es Teh Manis',
     price: 8000,
-    imageUrl:
-        'https://images.pexels.com/photos/13495013/pexels-photo-13495013.jpeg',
+    imageUrl: 'assets/teh.png',
     description:
         "Minuman teh segar dengan gula dan es batu, cocok untuk pelepas dahaga.",
     categories: ['Teh', 'Gula', 'Es Batu'],
     totalLike: 180500,
+    recipeUrl: "https://cookpad.com/id/resep/11111-es-teh-manis",
   ),
   FoodMenu(
     name: 'Bakso Sapi',
     price: 20000,
-    imageUrl:
-        'https://images.pexels.com/photos/15853315/pexels-photo-15853315.jpeg',
+    imageUrl: 'assets/bakso.png',
     description:
         "Bakso sapi kenyal dengan kuah gurih dan bumbu khas Indonesia.",
     categories: ['Daging Sapi', 'Tepung', 'Bumbu'],
     totalLike: 210000,
+    recipeUrl: "https://cookpad.com/id/resep/22222-bakso-sapi",
   ),
   FoodMenu(
     name: 'Rendang',
     price: 40000,
-    imageUrl:
-        'https://images.pexels.com/photos/12208781/pexels-photo-12208781.jpeg',
+    imageUrl: 'assets/rendang.png',
     description:
         "Rendang daging sapi dengan santan dan rempah-rempah khas Minang.",
     categories: ['Daging Sapi', 'Santan', 'Rempah'],
     totalLike: 198000,
+    recipeUrl: "https://cookpad.com/id/resep/33333-rendang",
   ),
   FoodMenu(
     name: 'Pisang Goreng',
     price: 15000,
-    imageUrl:
-        'https://images.pexels.com/photos/8118337/pexels-photo-8118337.jpeg',
+    imageUrl: 'assets/pisang_goreng.png',
     description:
-        "A sandbox video game where players can build and explore virtual worlds made of blocks. There are no specific goals to accomplish, allowing players a large amount of freedom in choosing how to play. Gameplay modes include a survival mode and a creative mode where players have unlimited resources.Pisang goreng renyah di luar, lembut di dalam, cocok untuk camilan.",
+        "Pisang goreng renyah di luar, lembut di dalam, cocok untuk camilan.",
     categories: ['Pisang', 'Tepung', 'Gula'],
     totalLike: 350000,
+    recipeUrl: "https://cookpad.com/id/resep/44444-pisang-goreng",
   ),
 ];

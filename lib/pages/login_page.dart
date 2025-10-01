@@ -66,14 +66,9 @@ class _LoginPageState extends State<LoginPage> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Icon(
-                Icons.gamepad,
-                size: 100,
-                color: Theme.of(context).colorScheme.primary,
-              ),
               const SizedBox(height: 24),
               Text(
-                'Selamat Datang di Katalog Game',
+                'Selamat Datang di Nachia FoodStore',
                 style: Theme.of(context).textTheme.headlineSmall?.copyWith(
                   fontWeight: FontWeight.bold,
                 ),
