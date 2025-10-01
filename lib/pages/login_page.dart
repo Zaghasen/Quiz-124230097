@@ -67,6 +67,12 @@ class _LoginPageState extends State<LoginPage> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               const SizedBox(height: 24),
+              Icon(
+                Icons.restaurant,
+                size: 100,
+                color: Theme.of(context).colorScheme.primary,
+              ),
+              const SizedBox(height: 8),
               Text(
                 'Selamat Datang di Nachia FoodStore',
                 style: Theme.of(context).textTheme.headlineSmall?.copyWith(

@@ -75,11 +75,27 @@ class _OrderPageState extends State<OrderPage> {
                     const SizedBox(height: 8),
                     Padding(
                       padding: const EdgeInsets.symmetric(horizontal: 16.0),
-                      child: Text(
-                        // 4. Tampilkan deskripsi
-                        widget.item.description,
-                        textAlign: TextAlign.center,
-                        style: Theme.of(context).textTheme.bodyMedium,
+                      child: Column(
+                        children: [
+                          Text(
+                            // 4. Tampilkan deskripsi
+                            widget.item.description,
+                            textAlign: TextAlign.center,
+                            style: Theme.of(context).textTheme.bodyMedium,
+                          ),
+                          const SizedBox(height: 8),
+                          Text(
+                            'Kalori: ${widget.item.kalori}',
+                            textAlign: TextAlign.center,
+                            style: Theme.of(context).textTheme.bodyMedium,
+                          ),
+                          const SizedBox(height: 4),
+                          Text(
+                            'Bahan: ${widget.item.ingredients}',
+                            textAlign: TextAlign.center,
+                            style: Theme.of(context).textTheme.bodyMedium,
+                          ),
+                        ],
                       ),
                     ),
                     const SizedBox(height: 16),

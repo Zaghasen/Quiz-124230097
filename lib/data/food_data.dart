@@ -6,6 +6,8 @@ class FoodMenu {
   int totalLike;
   List<String> categories;
   String recipeUrl;
+  String kalori;
+  String ingredients;
 
   FoodMenu({
     required this.name,
@@ -15,6 +17,8 @@ class FoodMenu {
     required this.categories,
     required this.totalLike,
     required this.recipeUrl,
+    required this.kalori,
+    required this.ingredients,
   });
 }
 
@@ -29,6 +33,8 @@ var foodMenuList = [
     categories: ['Nasi', 'Telur', 'Ayam', 'Kecap'],
     totalLike: 125000,
     recipeUrl: "https://cookpad.com/id/resep/12345-nasi-goreng-spesial",
+    kalori: '450 kalori',
+    ingredients: 'Nasi, Ayam, Telur, Bumbu spesial, Kecap',
   ),
   FoodMenu(
     name: 'Sate Ayam',
@@ -38,6 +44,8 @@ var foodMenuList = [
     categories: ['Ayam', 'Kecap', 'Sate'],
     totalLike: 230000,
     recipeUrl: "https://cookpad.com/id/resep/67890-sate-ayam",
+    kalori: '300 kalori',
+    ingredients: 'Ayam, Kacang, Kecap, Bumbu',
   ),
   FoodMenu(
     name: 'Es Teh Manis',
@@ -48,6 +56,8 @@ var foodMenuList = [
     categories: ['Teh', 'Gula', 'Es Batu'],
     totalLike: 180500,
     recipeUrl: "https://cookpad.com/id/resep/11111-es-teh-manis",
+    kalori: '100 kalori',
+    ingredients: 'Teh, Gula, Es Batu',
   ),
   FoodMenu(
     name: 'Bakso Sapi',
@@ -58,6 +68,8 @@ var foodMenuList = [
     categories: ['Daging Sapi', 'Tepung', 'Bumbu'],
     totalLike: 210000,
     recipeUrl: "https://cookpad.com/id/resep/22222-bakso-sapi",
+    kalori: '350 kalori',
+    ingredients: 'Daging Sapi, Tepung, Bumbu',
   ),
   FoodMenu(
     name: 'Rendang',
@@ -68,6 +80,8 @@ var foodMenuList = [
     categories: ['Daging Sapi', 'Santan', 'Rempah'],
     totalLike: 198000,
     recipeUrl: "https://cookpad.com/id/resep/33333-rendang",
+    kalori: '500 kalori',
+    ingredients: 'Daging Sapi, Santan, Rempah-rempah',
   ),
   FoodMenu(
     name: 'Pisang Goreng',
@@ -78,5 +92,7 @@ var foodMenuList = [
     categories: ['Pisang', 'Tepung', 'Gula'],
     totalLike: 350000,
     recipeUrl: "https://cookpad.com/id/resep/44444-pisang-goreng",
+    kalori: '200 kalori',
+    ingredients: 'Pisang, Tepung, Gula',
   ),
 ];
